@@ -1,0 +1,31 @@
+{
+  "name": "mahankals/package-name",
+  "version": "1.0.0",
+  "description": "package-description",
+  "keywords": [
+    "cakephp",
+    "plugin"
+  ],
+  "type": "cakephp-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Atul Mahankal",
+      "email": "atulmahankal@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "cakephp/cakephp": "5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "package-title\\": "src/"
+    }
+  },
+  "extra": {
+      "cakephp-plugin": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
